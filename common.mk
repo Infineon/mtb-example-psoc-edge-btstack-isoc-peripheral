@@ -7,7 +7,7 @@
 #
 ################################################################################
 # \copyright
-# Copyright 2023-2025, Cypress Semiconductor Corporation (an Infineon company)
+# (c) 2023-2025, Infineon Technologies AG, or an affiliate of Infineon Technologies AG.
 # SPDX-License-Identifier: Apache-2.0
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -36,13 +36,10 @@ TARGET=KIT_PSE84_EVAL_EPC2
 # GCC_ARM 	-- GCC is available as part of ModusToolbox Setup program
 # ARM     	-- ARM Compiler (must be installed separately)
 # IAR     	-- IAR Compiler (must be installed separately)
+# LLVM_ARM	-- LLVM Embedded Toolchain (must be installed separately)
 #
 # See also: CY_COMPILER_PATH below
 TOOLCHAIN=GCC_ARM
-
-# Toolchains supported by this code example. See README.md file.
-# This is used by automated build systems to identify the supported toolchains. 
-MTB_SUPPORTED_TOOLCHAINS?=GCC_ARM ARM IAR
 
 # Default build configuration. Options include:
 #
